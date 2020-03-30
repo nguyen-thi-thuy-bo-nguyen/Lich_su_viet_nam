@@ -60,6 +60,7 @@
     <Content Include="Header_page.ascx" />
     <Content Include="index.html" />
     <Content Include="jquery_css.js" />
+    <Content Include="page.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
