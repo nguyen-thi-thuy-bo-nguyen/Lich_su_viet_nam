@@ -2,3 +2,4 @@ D:\I_and_E\Lich_su_viet_nam\bin\Lich_su_viet_nam.dll
 D:\I_and_E\Lich_su_viet_nam\bin\Lich_su_viet_nam.pdb
 D:\I_and_E\Lich_su_viet_nam\obj\Debug\Lich_su_viet_nam.dll
 D:\I_and_E\Lich_su_viet_nam\obj\Debug\Lich_su_viet_nam.pdb
+D:\I_and_E\Lich_su_viet_nam\obj\Debug\Lich_su_viet_nam.csprojResolveAssemblyReference.cache
