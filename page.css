@@ -46,6 +46,9 @@ a {
     margin-left: 12px;
     text-align: center;
 }
+.menu ul li:hover a {
+    text-decoration: underline;
+} 
 .box-logo {
    height: 80%;
    width: 40%;

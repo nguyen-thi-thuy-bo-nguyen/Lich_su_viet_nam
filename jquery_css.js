@@ -7,12 +7,7 @@ $(function () {
 
     $(' .menu, .menu ul li a').css('line-height', '60px');
 
-    $('.menu ul li ').hover(function () {
-        
-    }, function () {
-       
-
-    });
+   
 
 });
 
