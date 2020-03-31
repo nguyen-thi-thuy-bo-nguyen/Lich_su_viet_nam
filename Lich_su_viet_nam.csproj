@@ -70,6 +70,7 @@
     <Content Include="image1\su-moi-01.jpg" />
     <Content Include="image1\trang phục 1.jpg" />
     <Content Include="image1\trang phục2.gif" />
+    <Content Include="image1\tải xuống.jpg" />
     <Content Include="index.html" />
     <Content Include="jquery_css.js" />
     <Content Include="page.css" />
