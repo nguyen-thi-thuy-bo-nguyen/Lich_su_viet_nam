@@ -1,9 +1,9 @@
 ﻿body {
-    width: 1470px;
+   
     margin: 0;
     padding: 0;
-    position: fixed;
-    z-index: 100000;
+    background: #ded8d8
+   
 }
 li {
     list-style-type: none;
@@ -12,18 +12,24 @@ a {
     text-decoration: none;
 }
 .header {
-    width: 100%;
+    width: 1470px;
     height:60px;
-     background: #411706;
+    background: #411706;
+    position: fixed;
+    z-index: 100000;
+    display: block;
+    top:0;
 }
 .menu {
     height: 100%;
-    width:85%;
+    width:60%;
    
+    position: absolute;
+    left: 600px
 }
 .logo {
     height: 100%;
-    width: 15%;
+    width: 30%
 
 }
 
@@ -35,57 +41,128 @@ a {
     padding: 0;
 }
 .menu ul li {
-    height: 100%;
-    width: 13%;
+  -webkit-flex-direction: row; /* Safari */
+  flex-direction:         row;
     margin-left: 12px;
     text-align: center;
 }
 .box-logo {
    height: 80%;
-   width: 50%;
-   margin: 8px auto ;
+   width: 40%;
+   margin: 8px 40px ;
    position: relative;
    background: #411706;
    border-radius: 5px;
 }
 .logo img {
     height: 80%;
-    width: 30%;
+    width: 25%;
     position: absolute;
     border-radius: 50%;
     left: -10px;top: 4px
     
 }
 .logo span{
-    top: 5px;
-    left: 24px;
+    top: 13px;
+    left: 40px;
+
     position: absolute;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .main-page {
-    height: 1000px;
-    width: 100%;
-    background: #808080;
+    width: 1300px;
+    height: 1300px;
+    margin: 0 auto;
+    position: relative;
 }
+.banner {
+    height: 500px;
+    width: 100%;
+    background: #f00;
+    margin-top: 60px;
+}
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+.dong-lich-su {
+    height: 300px;
+    width: 1300px;
+    background: #ff6a00;
+}
+.dong-lich-su .top {
+    height: 40px;
+    width: 1300px;
+    background: #4cff00;
+}
+.dong-lich-su .bottom {
+    height: 260px;
+    width: 1300px;
+    background: #4cff00;
+}
+.row {
+    float: left;
+    margin-left: 30px
+}
+.highlight {
+    
+    height: 350px;
+    width: 350px;
+    margin-bottom: 20px;
+    margin-right: 60px;
+
+  
+}
+.highlight h3{
+    
+    height: 50px;
+    width: 350px;
+}
+
+.highlight img{
+     border: 0.8px solid  #411706;
+    height: 80%;
+    width: 100%;
+}
+
+.tu-lieu {
+    height: 510px;
+    width: 300px;
+    text-align: center;
+     color: #411706;
+}
+.tu-lieu >ul >li{
+    text-align:left;
+    color: #411706;
+    line-height: 30px;
+}
+.row > img {
+    height: 300px;
+    width: 230px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer-page {
-     height: 40px;
-    width: 98%;
+    height: 50px;
+    width: 1440px;
     background:  #411706;
-    padding: 30px 30px  0 0;
+    padding: 10px 30px  0 0;
+    position: absolute;
 }
 .footer {
     height: 70%;

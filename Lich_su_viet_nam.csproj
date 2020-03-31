@@ -57,19 +57,27 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Header_page.ascx" />
+    <Content Include="body.js" />
+    <Content Include="date.js" />
+    <Content Include="image1\1.PNG" />
+    <Content Include="image1\14324208_1089407424500727_3842219071391538281_o.jpg" />
+    <Content Include="image1\2.PNG" />
+    <Content Include="image1\Capture.PNG" />
+    <Content Include="image1\chu-viet.jpg" />
+    <Content Include="image1\chuviet.jpg" />
+    <Content Include="image1\con_do_lang.jpg" />
+    <Content Include="image1\lanh-tho-viet-nam.jpg" />
+    <Content Include="image1\su-moi-01.jpg" />
+    <Content Include="image1\trang phục 1.jpg" />
+    <Content Include="image1\trang phục2.gif" />
     <Content Include="index.html" />
     <Content Include="jquery_css.js" />
     <Content Include="page.css" />
+    <Content Include="timeline.css" />
+    <Content Include="timeline.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Header_page.ascx.cs">
-      <DependentUpon>Header_page.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="Header_page.ascx.designer.cs">
-      <DependentUpon>Header_page.ascx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
